@@ -158,12 +158,7 @@ def num_table(items: list) -> str:
                    for i, item in enumerate(items, 1))
     return f"<table class='analysis-table'><tbody>{rows}</tbody></table>"
 
-FOOTER_HTML = """<div class='page-footer'>
-  FEMA Diligence Analyzer &nbsp;&middot;&nbsp;
-  Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026
-  (FEMA 23(R)/2026-RB, effective 1 October 2026) &nbsp;&middot;&nbsp;
-  For internal M&amp;A use only &nbsp;&middot;&nbsp; Not legal advice
-</div>"""
+FOOTER_HTML = ""
 
 # ── Sample data ───────────────────────────────────────────────────────────────
 SAMPLE = DiligenceInput(
